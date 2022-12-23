@@ -1,7 +1,7 @@
 nav {
     height: 5rem;
     width: 100vw;
-    background: var(--color-primary);
+    background: (--color-primary);
     display: grid;
     place-items: center;
     position: center;
@@ -26,6 +26,7 @@ nav {
 
 .logo {
     width: 7rem;
+    display: block;
 }
 
 .nav__links {
